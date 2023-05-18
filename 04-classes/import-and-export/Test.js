@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var People_1 = require("../access-modifier/People");
+var Entity_1 = require("../constructor-parameter-properties/Entity");
+var myPeople = new People_1.People("test", "people");
+var myEntity = new Entity_1.Entity("test", "entity");
+console.log(myPeople.firstName);
+console.log(myPeople.lastName);
+console.error("--------------------------------");
+console.log(myEntity.firstName);
+console.log(myEntity.lastName);
